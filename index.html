@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="name-contents">
+            <div id="info">
+                <h3>Jawahar Reddy</h3>
+                <p><img src="images/mail-icon.png" alt="mail-icon" id="mail"> jawaharreddy0410@gmail.com</p>
+                <p><img src="images/phone-icon.png" alt="phone-icon" id="phone"> 9849369636</p>
+            </div>
+            <nav id="navigation">
+                <a href="#about-me">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="recommendations">Recommendations</a>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content" id="about-me">
+        <div id="profile">
+            <p><img src="images/Jawahar .JPG" alt="Photo"></p>
+        </div>
+        <div id="description">
+            <h1>Hi, I am Jawahar! 👋</h1>
+            <p>I am a web developer with three years of experience, specializing in database administration and website design. I am passionate about continuous learning, particularly in areas like machine learning, deep learning, and computer vision. Proficient in both Java and Python, I have tackled various optimization problems, image processing tasks, and dynamic programming challenges. I have also applied artificial intelligence in real-world scenarios and have experience in building and deploying REST APIs.</p>
+        </div>
+    </div>
+    <div class="skills-grid" id="skills">
+        <div class="skill-card">
+            <img src="images/HTML.png" alt="HTML Image">
+            <h3>HTML</h3>
+            <p>2 Years Experience</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/CSS.png" alt="CSS Image">
+            <h3>CSS</h3>
+            <p>2 Years Experience</p>
+        </div>
+        <div class="skill-card">
+            <img src="images/JS.png" alt="JS Image">
+            <h3>JavaScript</h3>
+            <p>2 Years Experience</p>
+        </div>
+    </div>
+    <div class="projects-section" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Music Genre Classification</h3>
+            <p>Developed a deep learning model for classifying the genre of a music file.</p>
+        </div>
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>Created a Library Management System website using HTML, CSS, JavaScript, and PHP.</p>
+        </div>
+        <div class="project">
+            <h3>Grocery Application</h3>
+            <p>Created a simple grocery application using XML and Java.</p>
+        </div>
+    </div>
+    <div class="recommendations-section" id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendation-container">
+            <div class="recommendation">
+                <p><span>"</span> Jawahar is incredibly skilled in deep learning and machine learning. His ability to implement complex models, especially in the realm of audio classification, is impressive. If you're looking to collaborate on projects involving neural networks or CRNNs, he's your go-to expert. <span>"</span></p>
+            </div>
+            <div class="recommendation">
+                <p><span>"</span>Jawahar has a remarkable knack for optimizing algorithms. He recently worked on an innovative way to minimize key presses on a phone keypad, and his logic and approach were absolutely brilliant. <span>"</span></p>
+            </div>
+            <div class="recommendation">
+                <p><span>"</span>Jawahar’s focus on continuous learning sets him apart. He stays ahead of industry trends, whether it's experimenting with the latest deep learning frameworks or exploring new optimization techniques in Java and Python.<span>"</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="form-section">
+        <h2>Leave a Recommendation</h2>
+        <form id="recommendationForm">
+            <input type="text" id="name" placeholder="Name (Optional)">
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+    <div id="dialog" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Thank you for your recommendation!</p>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">&#8679;</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
